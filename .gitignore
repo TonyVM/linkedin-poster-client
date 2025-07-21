@@ -192,8 +192,18 @@ tmp/
 
 # Flet specific
 .flet/
+build/
+
+# Build outputs
+dist/
+*.apk
+*.aab
+*.ipa
 
 # Old files
 linkedin_post_app.py
 hello.py
 tood.py
+
+# Keep root main.py for mobile builds
+!main.py
